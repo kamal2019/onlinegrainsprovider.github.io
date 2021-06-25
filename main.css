@@ -1,0 +1,71 @@
+ 
+ .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-image-1 {
+    background: url('image5.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  .carousel-image-2 {
+    background: url('image8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .carousel-image-3 {
+    background: url('image9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bodyDiv {
+    height: 600px;
+}
+
+  /* footer */
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    /* overflow-x: hidden; */
+    padding: 16vmin 20vmin;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  
+  }
+
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
